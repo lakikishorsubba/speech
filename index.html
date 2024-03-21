@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>To-Do List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&family=Nanum+Brush+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Square+Peg&display=swap" rel="stylesheet">
+
+<body>
+  <div class="container">
+    <h1>[ADD YOUR LIST]</h1>
+    <div class="add-item-container">
+      <input type="text" id="newItem" placeholder="Add new item" />
+      <input type="number" id="addTimes" min="1" value="1" placeholder="Add multiple times" />
+      <button id="addMultiple">Add Multiple</button>
+    </div>
+
+    <ul id="list"> </ul>
+    <div class="fav-container">
+      <h2>[Favorites]</h2> <br>
+      <ul id="favList"></ul>
+    </div>
+    <button id="deleteAll">Delete all</button>
+    <button id="undo">Undo</button>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
